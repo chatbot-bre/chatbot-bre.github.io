@@ -41,7 +41,7 @@ function chatbotResponse() {
   else if ((new RegExp("histoire")).test(lastUserMessage) === true) {
     const msg = ["Il y a tres longtemps, un Brebeuvien s'est aventure dans le bureau de Monsieur Racine. Monsieur Racine l'a accueilli et ils sont maintenant de tres bons amis!",
     "Il etait une fois des gens jouaient au hockey dans la rue. Maintenant, ce ne sont que les reals qui jouent au hockey a l'exterieur puisque la plupart des gens jouent a NHL 2018 sur XBOX.",
-    "Je me rappelle du temps ou Fortnite '<a href='https://fr.wikipedia.org/wiki/Club_Penguin' target='\\blank'>'n'existait pas'</a>' <a href='https://create.cprewritten.net/'><img style='width:400px;' src='http://images5.fanpop.com/image/photos/25300000/club-penguin-club-penguin-25388027-1280-1024.jpg'></a>."]
+    "Je me rappelle du temps ou Fortnite '<a href='https://fr.wikipedia.org/wiki/Club_Penguin' target='\\blank'>'n'existait pas'</a>' <a target='\blank' href='https://create.cprewritten.net/'><img style='width:400px;' src='http://images5.fanpop.com/image/photos/25300000/club-penguin-club-penguin-25388027-1280-1024.jpg'></a>."]
     botMessage = msg[Math.floor(Math.random()*(msg.length))];;
   }
 }
